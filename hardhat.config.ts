@@ -176,6 +176,7 @@ const hardhatConfig: HardhatUserConfig = {
       '@aave/governance-v2/contracts/governance/AaveGovernanceV2.sol',
       '@aave/governance-v2/contracts/governance/Executor.sol',
     ],
+    keep: true,
   },
 };
 
